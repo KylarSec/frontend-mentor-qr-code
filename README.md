@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Frontend Mentor - QR Code Component
 
 This is my solution to the QR Code Component challenge from Frontend Mentor.
@@ -37,6 +36,4 @@ Through this project, I practiced:
 ## Author
 
 - GitHub: KylarSec
-=======
-# frontend-mentor-qr-code
->>>>>>> fee8a2f4e594d602852a95d8a255d7a471502f52
+
