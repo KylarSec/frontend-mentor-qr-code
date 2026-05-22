@@ -21,71 +21,11 @@
       rel="stylesheet"
     />
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-size: 15px;
-        font-family: "Outfit", sans-serif;
-      }
-
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: hsl(212, 45%, 89%);
-        padding: 0 10px;
-      }
-
-      .qr-container {
-        width: 100%;
-        max-width: 300px;
-        background-color: hsl(0, 0%, 100%);
-        padding: 15px;
-        border-radius: 15px;
-        text-align: center;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      }
-
-      .qr img {
-        width: 100%;
-        border-radius: 10px;
-      }
-
-      .text {
-        margin: 20px auto;
-        width: 90%;
-      }
-
-      .text h2 {
-        margin-bottom: 15px;
-        font-size: 1.2rem;
-      }
-
-      .text p {
-        color: hsl(216, 15%, 48%);
-        line-height: 1.5;
-      }
-
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-        margin-top: 20px;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <div class="container">
+    <main class="container">
       <div class="qr-container">
         <div class="qr">
           <img
@@ -95,7 +35,7 @@
         </div>
 
         <div class="text">
-          <h2>Improve your front-end skills by building projects</h2>
+          <h1>Improve your front-end skills by building projects</h1>
 
           <p>
             Scan the QR code to visit Frontend Mentor and take your coding
@@ -110,6 +50,6 @@
           >. Coded by <a href="#">Sumit</a>.
         </footer>
       </div>
-    </div>
+    </main>
   </body>
 </html>
